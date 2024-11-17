@@ -1,6 +1,8 @@
 # Local LLM UI
 
-Local LLM UI is a Flask application that provides a simple web interface for interacting with the LLaMA model. Working 100% local LLMs via ollama (I used the gguf model file in my huggingface repo -> [doaonduty/llama-3.1-8b-instruct-gguf](https://huggingface.co/doaonduty/llama-3.1-8b-instruct-gguf/tree/main) that I converted from vanilla llama-3.1-8b-instruct). Why I included langchain in requirements? because I plan to add RAG module soon :).
+<img width="1499" alt="image" src="https://github.com/user-attachments/assets/ab763f4e-ec58-46f7-a83f-989c7b62c34e">
+
+Local LLM UI is a Flask application that provides a simple web interface for interacting with local LLMs via ollama (I used the gguf model file in my huggingface repo -> [doaonduty/llama-3.1-8b-instruct-gguf](https://huggingface.co/doaonduty/llama-3.1-8b-instruct-gguf/tree/main) that I converted from vanilla llama-3.1-8b-instruct). It has some basic UI features like enter to send, spinning wheel etc. I utilized the project to remind me that simple things in life what keeps it going. If you are wondering why I included langchain in requirements? because I plan to add RAG module soon :).
 
 ## Requirements
 
