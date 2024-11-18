@@ -115,6 +115,7 @@ class FlaskApp:
         }
         .button {
             width: 10%;
+            margin-left: 10px;
             padding: 10px;
             border: 1px solid #8e44ad;
             border-radius: 10px;
@@ -129,20 +130,15 @@ class FlaskApp:
             border: 5px solid #f3f3f3; /* Light grey */
             border-top: 5px solid #337ab7; /* Blue */
             border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            animation: spin 2s linear infinite;
+            width: 250px;
+            height: 250px;
             position: absolute;
-            top: 50%;
-            left: 50%;
+            top: 0%;
+            left: 0%;
             transform: translate(-50%, -50%);
             z-index: 1;
         }
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
         </style>
         </head>
         <body>
@@ -180,7 +176,7 @@ class FlaskApp:
         console.log('Endpoint:', endpoint);
         const loader = document.getElementById('loader');
         loader.style.display = 'block';
-        loader.innerHTML = '<div class="loader">Waiting for Response...</div>';
+        loader.innerHTML = '<img class="loader" src="https://c.tenor.com/fVGbvf-NwC8AAAAC/tenor.gif" />';
         const response = await fetch(endpoint, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

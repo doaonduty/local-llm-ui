@@ -8,8 +8,8 @@ Local LLM UI is a Flask application that provides a simple web interface for int
 
 * Python 3.12+
 * Flask 3.1.0
-* langchain_ollama 0.2.0
-* ollama 0.3.3
+* langchain_ollama 0.2.0 (https://python.langchain.com/docs/integrations/providers/ollama/)
+* ollama 0.3.3 (https://ollama.com/download)
 
 ## Installation
 
